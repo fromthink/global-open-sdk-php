@@ -5,9 +5,9 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Request\\": "request/",
-      "Model\\": "model/",
-      "Client\\": "client/"
+      "Fromthink\\Antom\\Request\\": "request/",
+      "Fromthink\\Antom\\Model\\": "model/",
+      "Fromthink\\Antom\\Client\\": "client/"
     }
   },
   "homepage": "https://dashboard.alipay.com/global-payments/",
