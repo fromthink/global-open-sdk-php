@@ -1,7 +1,7 @@
 <?php
 
 
-namespace \Fromthink\Antom\Model;
+namespace Fromthink\Antom\Model;
 class TransactionStatusType
 {
     const SUCCESS = "SUCCESS";

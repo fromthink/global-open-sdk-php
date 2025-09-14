@@ -1,6 +1,6 @@
 <?php
 
-namespace \Fromthink\Antom\Client;
+namespace Fromthink\Antom\Client;
 
 class SignatureTool
 {

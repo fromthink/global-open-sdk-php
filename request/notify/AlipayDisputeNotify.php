@@ -1,6 +1,6 @@
 <?php
 
-namespace \Fromthink\Antom\Request\notify;
+namespace Fromthink\Antom\Request\notify;
 
 
 class AlipayDisputeNotify extends AlipayNotify

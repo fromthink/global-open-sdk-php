@@ -1,6 +1,6 @@
 <?php
 
-namespace \Fromthink\Antom\Request\pay;
+namespace Fromthink\Antom\Request\pay;
 
 use \Fromthink\Antom\Exception;
 use \Fromthink\Antom\Model\Amount;

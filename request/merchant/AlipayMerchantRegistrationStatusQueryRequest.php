@@ -1,6 +1,6 @@
 <?php
 
-namespace \Fromthink\Antom\Request\merchant;
+namespace Fromthink\Antom\Request\merchant;
 
 use \Fromthink\Antom\Request\AlipayRequest;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace \Fromthink\Antom\Request\dispute;
+namespace Fromthink\Antom\Request\dispute;
 
 use \Fromthink\Antom\Model\AntomPathConstants;
 use \Fromthink\Antom\Request\AlipayRequest;

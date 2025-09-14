@@ -1,6 +1,6 @@
 <?php
 
-namespace \Fromthink\Antom\Model;
+namespace Fromthink\Antom\Model;
 class ChallengeType
 {
     const SMS_OTP = "SMS_OTP";

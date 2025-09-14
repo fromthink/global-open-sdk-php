@@ -1,6 +1,6 @@
 <?php
 
-namespace \Fromthink\Antom\Request\order;
+namespace Fromthink\Antom\Request\order;
 
 use \Fromthink\Antom\Request\AlipayRequest;
 
