@@ -3,7 +3,7 @@
 namespace Fromthink\Antom\Request\auth;
 
 
-class AlipayAuthCreateSessionRequest extends Fromthink\Antom\Request\AlipayRequest
+class AlipayAuthCreateSessionRequest extends \Fromthink\Antom\Request\AlipayRequest
 {
 
 

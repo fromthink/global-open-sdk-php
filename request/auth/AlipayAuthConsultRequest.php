@@ -3,7 +3,7 @@
 namespace Fromthink\Antom\Request\auth;
 
 
-class AlipayAuthConsultRequest extends Fromthink\Antom\Request\AlipayRequest
+class AlipayAuthConsultRequest extends \Fromthink\Antom\Request\AlipayRequest
 {
 
     public $customerBelongsTo;

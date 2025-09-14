@@ -3,7 +3,7 @@
 namespace Fromthink\Antom\Request\notify;
 
 
-class AlipayAuthNotify extends Fromthink\Antom\Request\notify\AlipayNotify
+class AlipayAuthNotify extends AlipayNotify
 {
 
     /**
