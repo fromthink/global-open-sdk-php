@@ -1,9 +1,9 @@
 <?php
 
-namespace Fromthink\Antom\Request\pay;
+namespace \Fromthink\Antom\Request\pay;
 
-use Fromthink\Antom\Model\AntomPathConstants;
-use Fromthink\Antom\Request\AlipayRequest;
+use \Fromthink\Antom\Model\AntomPathConstants;
+use \Fromthink\Antom\Request\AlipayRequest;
 
 class AlipayPayCancelRequest extends AlipayRequest
 {

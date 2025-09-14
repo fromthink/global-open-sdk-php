@@ -1,8 +1,8 @@
 <?php
 
-namespace Fromthink\Antom\Request\merchant;
+namespace \Fromthink\Antom\Request\merchant;
 
-use Fromthink\Antom\Request\AlipayRequest;
+use \Fromthink\Antom\Request\AlipayRequest;
 
 class AlipayMerchantRegistrationStatusQueryRequest extends AlipayRequest
 {

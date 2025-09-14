@@ -1,14 +1,14 @@
 <?php
 require '../init.php';
 
-use Fromthink\Antom\Client\DefaultAlipayClient;
-use Fromthink\Antom\Model\Amount;
-use Fromthink\Antom\Model\Certificate;
-use Fromthink\Antom\model\CertificateType;
-use Fromthink\Antom\Model\CustomsInfo;
-use Fromthink\Antom\Model\MerchantCustomsInfo;
-use Fromthink\Antom\model\UserName;
-use Fromthink\Antom\Request\customs\AlipayCustomsDeclareRequest;
+use \Fromthink\Antom\Client\DefaultAlipayClient;
+use \Fromthink\Antom\Model\Amount;
+use \Fromthink\Antom\Model\Certificate;
+use \Fromthink\Antom\model\CertificateType;
+use \Fromthink\Antom\Model\CustomsInfo;
+use \Fromthink\Antom\Model\MerchantCustomsInfo;
+use \Fromthink\Antom\model\UserName;
+use \Fromthink\Antom\Request\customs\AlipayCustomsDeclareRequest;
 
 
 const clientId = "";
@@ -57,7 +57,7 @@ function declares($paymentId)
 function inquiryDeclaration($declareRequestId)
 {
 
-    $request = new Fromthink\Antom\Request\customs\AlipayCustomsQueryRequest();
+    $request = new \Fromthink\Antom\Request\customs\AlipayCustomsQueryRequest();
     $request->setDeclarationRequestIds([$declareRequestId]);
 
     $alipayClient = new DefaultAlipayClient(gatewayUrl, merchantPrivateKey, alipayPublicKey, clientId);

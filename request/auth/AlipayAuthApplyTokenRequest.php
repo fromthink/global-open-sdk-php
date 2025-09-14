@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Fromthink\Antom\Request\auth;
+namespace \Fromthink\Antom\Request\auth;
 
-use Fromthink\Antom\Model\AntomPathConstants;
-use Fromthink\Antom\Request\AlipayRequest;
+use \Fromthink\Antom\Model\AntomPathConstants;
+use \Fromthink\Antom\Request\AlipayRequest;
 
 class AlipayAuthApplyTokenRequest extends AlipayRequest
 {

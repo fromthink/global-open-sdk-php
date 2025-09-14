@@ -1,8 +1,8 @@
 <?php
 
-namespace Fromthink\Antom\Request\users;
+namespace \Fromthink\Antom\Request\users;
 
-use Fromthink\Antom\Request\AlipayRequest;
+use \Fromthink\Antom\Request\AlipayRequest;
 
 class AlipayUserQueryInfoRequest extends AlipayRequest
 {

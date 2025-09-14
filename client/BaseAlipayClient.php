@@ -1,6 +1,6 @@
 <?php
 
-namespace Fromthink\Antom\Client;
+namespace \Fromthink\Antom\Client;
 
 
 abstract class BaseAlipayClient
@@ -142,7 +142,7 @@ abstract class BaseAlipayClient
     private function genSignValue($httpMethod, $path, $clientId, $reqTime, $reqBody)
     {
         try {
-            $signValue = Fromthink\Antom\Client\SignatureTool::sign($httpMethod, $path, $clientId, $reqTime, $reqBody, $this->merchantPrivateKey);
+            $signValue = \Fromthink\Antom\Client\SignatureTool::sign($httpMethod, $path, $clientId, $reqTime, $reqBody, $this->merchantPrivateKey);
         } catch (\Exception $e) {
             throw new \Exception($e);
         }
@@ -152,7 +152,7 @@ abstract class BaseAlipayClient
     private function checkRspSign($httpMethod, $path, $clientId, $rspTime, $rspBody, $rspSignValue)
     {
         try {
-            $isVerify = Fromthink\Antom\Client\SignatureTool::verify($httpMethod, $path, $clientId, $rspTime, $rspBody, $rspSignValue, $this->alipayPublicKey);
+            $isVerify = \Fromthink\Antom\Client\SignatureTool::verify($httpMethod, $path, $clientId, $rspTime, $rspBody, $rspSignValue, $this->alipayPublicKey);
         } catch (\Exception $e) {
             throw new \Exception($e);
         }

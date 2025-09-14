@@ -2,7 +2,7 @@
 
 require '../init.php';
 
-use Fromthink\Antom\Client\DefaultAlipayClient;
+use \Fromthink\Antom\Client\DefaultAlipayClient;
 
 
 const clientId = "";
@@ -13,7 +13,7 @@ const gatewayUrl = "";
 
 function acceptDispute($disputeId)
 {
-    $alipayAcceptDisputeRequest = new Fromthink\Antom\Request\dispute\AlipayAcceptDisputeRequest();
+    $alipayAcceptDisputeRequest = new \Fromthink\Antom\Request\dispute\AlipayAcceptDisputeRequest();
     $alipayAcceptDisputeRequest->setDisputeId($disputeId);
 
     $alipayClient = new DefaultAlipayClient("https://open-sea-global.alipay.com", merchantPrivateKey, alipayPublicKey, clientId);
@@ -25,7 +25,7 @@ function acceptDispute($disputeId)
 
 function supplyDefenseDocument($disputeId)
 {
-    $alipaySupplyDefenseDocumentRequest = new Fromthink\Antom\Request\dispute\AlipaySupplyDefenseDocumentRequest();
+    $alipaySupplyDefenseDocumentRequest = new \Fromthink\Antom\Request\dispute\AlipaySupplyDefenseDocumentRequest();
     $alipaySupplyDefenseDocumentRequest->setDisputeId($disputeId);
     $alipaySupplyDefenseDocumentRequest->setDisputeEvidence("test");
 
@@ -38,7 +38,7 @@ function supplyDefenseDocument($disputeId)
 
 function downloadDisputeEvidence($disputeId)
 {
-    $alipayDownloadDisputeEvidenceRequest = new Fromthink\Antom\Request\dispute\AlipayDownloadDisputeEvidenceRequest();
+    $alipayDownloadDisputeEvidenceRequest = new \Fromthink\Antom\Request\dispute\AlipayDownloadDisputeEvidenceRequest();
     $alipayDownloadDisputeEvidenceRequest->setDisputeId($disputeId);
     $alipayDownloadDisputeEvidenceRequest->setDisputeEvidenceType(\Model\DisputeEvidenceType::DISPUTE_EVIDENCE_TEMPLATE);
 

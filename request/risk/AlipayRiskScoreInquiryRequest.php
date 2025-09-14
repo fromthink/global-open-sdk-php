@@ -1,8 +1,8 @@
 <?php
 
-namespace Fromthink\Antom\Request\risk;
+namespace \Fromthink\Antom\Request\risk;
 
-use Fromthink\Antom\Request\AlipayRequest;
+use \Fromthink\Antom\Request\AlipayRequest;
 
 class AlipayRiskScoreInquiryRequest extends AlipayRequest
 {

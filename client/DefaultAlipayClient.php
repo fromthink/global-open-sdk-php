@@ -1,6 +1,6 @@
 <?php
 
-namespace Fromthink\Antom\Client;
+namespace \Fromthink\Antom\Client;
 
 class DefaultAlipayClient extends BaseAlipayClient
 {
@@ -51,7 +51,7 @@ class DefaultAlipayClient extends BaseAlipayClient
         $headerContent = substr($rspContent, 0, $headerSize);
         $rspBody = substr($rspContent, $headerSize);
 
-        $httpRpcResult = new Fromthink\Antom\Model\HttpRpcResult();
+        $httpRpcResult = new \Fromthink\Antom\Model\HttpRpcResult();
         $httpRpcResult->setRspBody($rspBody);
 
         $headArr = explode("\r\n", $headerContent);

@@ -1,18 +1,18 @@
 <?php
 require '../init.php';
 
-use Fromthink\Antom\Client\DefaultAlipayClient;
-use Fromthink\Antom\Model\Address;
-use Fromthink\Antom\Model\Attachment;
-use Fromthink\Antom\Model\ContactInfo;
-use Fromthink\Antom\Model\Logo;
-use Fromthink\Antom\Model\MerchantRegistrationInfo;
-use Fromthink\Antom\Model\ProductCodeType;
-use Fromthink\Antom\Model\RegistrationDetail;
-use Fromthink\Antom\Model\WebSite;
-use Fromthink\Antom\Request\merchant\AlipayMerchantRegistrationInfoQueryRequest;
-use Fromthink\Antom\Request\merchant\AlipayMerchantRegistrationRequest;
-use Fromthink\Antom\Request\merchant\AlipayMerchantRegistrationStatusQueryRequest;
+use \Fromthink\Antom\Client\DefaultAlipayClient;
+use \Fromthink\Antom\Model\Address;
+use \Fromthink\Antom\Model\Attachment;
+use \Fromthink\Antom\Model\ContactInfo;
+use \Fromthink\Antom\Model\Logo;
+use \Fromthink\Antom\Model\MerchantRegistrationInfo;
+use \Fromthink\Antom\Model\ProductCodeType;
+use \Fromthink\Antom\Model\RegistrationDetail;
+use \Fromthink\Antom\Model\WebSite;
+use \Fromthink\Antom\Request\merchant\AlipayMerchantRegistrationInfoQueryRequest;
+use \Fromthink\Antom\Request\merchant\AlipayMerchantRegistrationRequest;
+use \Fromthink\Antom\Request\merchant\AlipayMerchantRegistrationStatusQueryRequest;
 
 
 $merchantPrivateKey = file_get_contents(__DIR__ . "/../private-pkcs1.pem");

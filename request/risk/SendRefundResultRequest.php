@@ -1,9 +1,9 @@
 <?php
 
-namespace Fromthink\Antom\Request\risk;
+namespace \Fromthink\Antom\Request\risk;
 
-use Fromthink\Antom\Model\AntomPathConstants;
-use Fromthink\Antom\Request\AlipayRequest;
+use \Fromthink\Antom\Model\AntomPathConstants;
+use \Fromthink\Antom\Request\AlipayRequest;
 
 class SendRefundResultRequest extends AlipayRequest
 {
