@@ -1,9 +1,9 @@
 <?php
 
-namespace Request\vaulting;
+namespace Fromthink\Antom\Request\vaulting;
 
-use Model\AntomPathConstants;
-use Request\AlipayRequest;
+use Fromthink\Antom\Model\AntomPathConstants;
+use Fromthink\Antom\Request\AlipayRequest;
 
 class AlipayVaultingSessionRequest extends AlipayRequest
 {

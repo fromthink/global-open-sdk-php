@@ -1,28 +1,28 @@
 <?php
 require '../init.php';
 
-use Client\DefaultAlipayClient;
-use Model\Amount;
-use Model\Buyer;
-use Model\Env;
-use Model\Merchant;
-use Model\Order;
-use Model\OsType;
-use Model\PaymentFactor;
-use Model\PaymentMethod;
-use Model\PresentmentMode;
-use Model\ProductCodeType;
-use Model\SettlementStrategy;
-use Model\Store;
-use Model\TerminalType;
-use Model\WalletPaymentMethodType;
-use Request\pay\AlipayInquiryRefundRequest;
-use Request\pay\AlipayPayCancelRequest;
-use Request\pay\AlipayPayConsultRequest;
-use Request\pay\AlipayPaymentSessionRequest;
-use Request\pay\AlipayPayQueryRequest;
-use Request\pay\AlipayPayRequest;
-use Request\pay\AlipayRefundRequest;
+use Fromthink\Antom\Client\DefaultAlipayClient;
+use Fromthink\Antom\Model\Amount;
+use Fromthink\Antom\Model\Buyer;
+use Fromthink\Antom\Model\Env;
+use Fromthink\Antom\Model\Merchant;
+use Fromthink\Antom\Model\Order;
+use Fromthink\Antom\Model\OsType;
+use Fromthink\Antom\Model\PaymentFactor;
+use Fromthink\Antom\Model\PaymentMethod;
+use Fromthink\Antom\Model\PresentmentMode;
+use Fromthink\Antom\Model\ProductCodeType;
+use Fromthink\Antom\Model\SettlementStrategy;
+use Fromthink\Antom\Model\Store;
+use Fromthink\Antom\Model\TerminalType;
+use Fromthink\Antom\Model\WalletPaymentMethodType;
+use Fromthink\Antom\Request\pay\AlipayInquiryRefundRequest;
+use Fromthink\Antom\Request\pay\AlipayPayCancelRequest;
+use Fromthink\Antom\Request\pay\AlipayPayConsultRequest;
+use Fromthink\Antom\Request\pay\AlipayPaymentSessionRequest;
+use Fromthink\Antom\Request\pay\AlipayPayQueryRequest;
+use Fromthink\Antom\Request\pay\AlipayPayRequest;
+use Fromthink\Antom\Request\pay\AlipayRefundRequest;
 
 
 const clientId = "";

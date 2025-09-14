@@ -1,6 +1,6 @@
 <?php
 
-namespace Model;
+namespace Fromthink\Antom\Model;
 class DisplayType
 {
     const TEXT = "TEXT";

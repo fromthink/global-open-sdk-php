@@ -1,6 +1,6 @@
 <?php
 
-namespace Model;
+namespace Fromthink\Antom\Model;
 
 class RedirectActionForm
 {

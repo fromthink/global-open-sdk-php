@@ -2,7 +2,7 @@
 
 require '../init.php';
 
-use Client\DefaultAlipayClient;
+use Fromthink\Antom\Client\DefaultAlipayClient;
 
 
 const clientId = "";

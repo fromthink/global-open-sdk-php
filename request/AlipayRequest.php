@@ -1,6 +1,6 @@
 <?php
 
-namespace Request;
+namespace Fromthink\Antom\Request;
 
 class AlipayRequest
 {

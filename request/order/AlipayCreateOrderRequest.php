@@ -1,8 +1,8 @@
 <?php
 
-namespace Request\order;
+namespace Fromthink\Antom\Request\order;
 
-use Request\AlipayRequest;
+use Fromthink\Antom\Request\AlipayRequest;
 
 class AlipayCreateOrderRequest extends AlipayRequest
 {

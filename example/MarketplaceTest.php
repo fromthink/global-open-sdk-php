@@ -1,8 +1,8 @@
 <?php
 require '../init.php';
 
-use Request\marketplace\AlipayRegisterRequest;
-use Client\DefaultAlipayClient;
+use Fromthink\Antom\Request\marketplace\AlipayRegisterRequest;
+use Fromthink\Antom\Client\DefaultAlipayClient;
 
 const clientId = "";
 const merchantPrivateKey = "";

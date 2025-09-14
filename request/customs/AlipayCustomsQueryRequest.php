@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Request\customs;
+namespace Fromthink\Antom\Request\customs;
 
-use Model\AntomPathConstants;
-use Request\AlipayRequest;
+use Fromthink\Antom\Model\AntomPathConstants;
+use Fromthink\Antom\Request\AlipayRequest;
 
 class AlipayCustomsQueryRequest extends AlipayRequest
 {

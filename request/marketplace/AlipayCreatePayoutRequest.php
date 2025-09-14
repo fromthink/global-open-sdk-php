@@ -1,9 +1,9 @@
 <?php
 
-namespace Request\marketplace;
+namespace Fromthink\Antom\Request\marketplace;
 
-use Model\AntomPathConstants;
-use Request\AlipayRequest;
+use Fromthink\Antom\Model\AntomPathConstants;
+use Fromthink\Antom\Request\AlipayRequest;
 
 class AlipayCreatePayoutRequest extends AlipayRequest
 {

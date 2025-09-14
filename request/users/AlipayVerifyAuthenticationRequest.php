@@ -1,8 +1,8 @@
 <?php
 
-namespace Request\users;
+namespace Fromthink\Antom\Request\users;
 
-use Request\AlipayRequest;
+use Fromthink\Antom\Request\AlipayRequest;
 
 class AlipayVerifyAuthenticationRequest extends AlipayRequest
 {

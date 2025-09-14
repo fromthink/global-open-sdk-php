@@ -1,6 +1,6 @@
 <?php
 
-namespace Model;
+namespace Fromthink\Antom\Model;
 class RiskScoreType
 {
     const NSF_SCORE = "NSF_SCORE";

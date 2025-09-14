@@ -1,6 +1,6 @@
 <?php
 
-namespace Request\auth;
+namespace Fromthink\Antom\Request\auth;
 
 
 class AlipayAuthConsultRequest extends \Request\AlipayRequest

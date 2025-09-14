@@ -1,6 +1,6 @@
 <?php
 
-namespace Client;
+namespace Fromthink\Antom\Client;
 
 
 abstract class BaseAlipayClient

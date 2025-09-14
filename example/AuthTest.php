@@ -3,12 +3,12 @@
 
 require '../init.php';
 
-use Client\DefaultAlipayClient;
-use MOdel\CustomerBelongsTo;
-use Model\GrantType;
-use Request\auth\AlipayAuthApplyTokenRequest;
-use Request\auth\AlipayAuthConsultRequest;
-use Request\auth\AlipayAuthRevokeTokenRequest;
+use Fromthink\Antom\Client\DefaultAlipayClient;
+use Fromthink\Antom\MOdel\CustomerBelongsTo;
+use Fromthink\Antom\Model\GrantType;
+use Fromthink\Antom\Request\auth\AlipayAuthApplyTokenRequest;
+use Fromthink\Antom\Request\auth\AlipayAuthConsultRequest;
+use Fromthink\Antom\Request\auth\AlipayAuthRevokeTokenRequest;
 
 
 const clientId = "";

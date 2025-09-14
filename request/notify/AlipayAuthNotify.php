@@ -1,6 +1,6 @@
 <?php
 
-namespace Request\notify;
+namespace Fromthink\Antom\Request\notify;
 
 
 class AlipayAuthNotify extends \Request\notify\AlipayNotify

@@ -1,9 +1,9 @@
 <?php
 
-namespace Request\dispute;
+namespace Fromthink\Antom\Request\dispute;
 
-use Model\AntomPathConstants;
-use Request\AlipayRequest;
+use Fromthink\Antom\Model\AntomPathConstants;
+use Fromthink\Antom\Request\AlipayRequest;
 
 class AlipayAcceptDisputeRequest extends  AlipayRequest
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Request\pay;
+namespace Fromthink\Antom\Request\pay;
 
-use Exception;
-use Model\Amount;
-use Model\InStorePaymentScenario;
-use Model\PaymentFactor;
-use Model\PaymentMethod;
-use Model\ProductCodeType;
+use Fromthink\Antom\Exception;
+use Fromthink\Antom\Model\Amount;
+use Fromthink\Antom\Model\InStorePaymentScenario;
+use Fromthink\Antom\Model\PaymentFactor;
+use Fromthink\Antom\Model\PaymentMethod;
+use Fromthink\Antom\Model\ProductCodeType;
 
 class EntryCodePaymentRequest extends AlipayPayRequest
 {

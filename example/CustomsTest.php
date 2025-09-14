@@ -1,14 +1,14 @@
 <?php
 require '../init.php';
 
-use Client\DefaultAlipayClient;
-use Model\Amount;
-use Model\Certificate;
-use model\CertificateType;
-use Model\CustomsInfo;
-use Model\MerchantCustomsInfo;
-use model\UserName;
-use Request\customs\AlipayCustomsDeclareRequest;
+use Fromthink\Antom\Client\DefaultAlipayClient;
+use Fromthink\Antom\Model\Amount;
+use Fromthink\Antom\Model\Certificate;
+use Fromthink\Antom\model\CertificateType;
+use Fromthink\Antom\Model\CustomsInfo;
+use Fromthink\Antom\Model\MerchantCustomsInfo;
+use Fromthink\Antom\model\UserName;
+use Fromthink\Antom\Request\customs\AlipayCustomsDeclareRequest;
 
 
 const clientId = "";

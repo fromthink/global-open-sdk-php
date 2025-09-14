@@ -1,18 +1,18 @@
 <?php
 require '../init.php';
 
-use Client\DefaultAlipayClient;
-use Model\Amount;
-use Model\Env;
-use Model\Merchant;
-use Model\Order;
-use Model\OsType;
-use Model\PaymentMethod;
-use Model\ProductCodeType;
-use Model\Store;
-use model\TerminalType;
-use Model\WalletPaymentMethodType;
-use Request\pay\EntryCodePaymentRequest;
+use Fromthink\Antom\Client\DefaultAlipayClient;
+use Fromthink\Antom\Model\Amount;
+use Fromthink\Antom\Model\Env;
+use Fromthink\Antom\Model\Merchant;
+use Fromthink\Antom\Model\Order;
+use Fromthink\Antom\Model\OsType;
+use Fromthink\Antom\Model\PaymentMethod;
+use Fromthink\Antom\Model\ProductCodeType;
+use Fromthink\Antom\Model\Store;
+use Fromthink\Antom\model\TerminalType;
+use Fromthink\Antom\Model\WalletPaymentMethodType;
+use Fromthink\Antom\Request\pay\EntryCodePaymentRequest;
 
 
 $clientId = "SANDBOX_5YBZ1G2ZHUPS06086";

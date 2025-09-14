@@ -1,13 +1,13 @@
 <?php
 require '../init.php';
 
-use Client\DefaultAlipayClient;
-use Model\Amount;
-use Model\Env;
-use Model\Merchant;
-use Model\Order;
-use Model\Store;
-use Request\pay\UserPresentedCodePaymentRequest;
+use Fromthink\Antom\Client\DefaultAlipayClient;
+use Fromthink\Antom\Model\Amount;
+use Fromthink\Antom\Model\Env;
+use Fromthink\Antom\Model\Merchant;
+use Fromthink\Antom\Model\Order;
+use Fromthink\Antom\Model\Store;
+use Fromthink\Antom\Request\pay\UserPresentedCodePaymentRequest;
 
 
 $clientId = "T_385XSM502Y108602A";

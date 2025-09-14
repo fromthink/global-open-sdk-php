@@ -1,9 +1,9 @@
 <?php
 
-namespace Request\risk;
+namespace Fromthink\Antom\Request\risk;
 
-use Model\AntomPathConstants;
-use Request\AlipayRequest;
+use Fromthink\Antom\Model\AntomPathConstants;
+use Fromthink\Antom\Request\AlipayRequest;
 
 class RiskDecideRequest extends AlipayRequest
 {

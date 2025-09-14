@@ -1,9 +1,9 @@
 <?php
 
-namespace Request\subscription;
+namespace Fromthink\Antom\Request\subscription;
 
-use Model\AntomPathConstants;
-use Request\AlipayRequest;
+use Fromthink\Antom\Model\AntomPathConstants;
+use Fromthink\Antom\Request\AlipayRequest;
 
 class AlipaySubscriptionChangeRequest extends AlipayRequest
 {
