@@ -2,7 +2,7 @@
 
 namespace Fromthink\Antom\Request\notify;
 
-class AlipaySubscriptionNotify extends \Request\notify\AlipayNotify
+class AlipaySubscriptionNotify extends Fromthink\Antom\Request\notify\AlipayNotify
 {
     public  $subscriptionRequestId;
     public  $subscriptionId;

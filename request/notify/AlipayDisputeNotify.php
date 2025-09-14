@@ -3,7 +3,7 @@
 namespace Fromthink\Antom\Request\notify;
 
 
-class AlipayDisputeNotify extends \Request\notify\AlipayNotify
+class AlipayDisputeNotify extends Fromthink\Antom\Request\notify\AlipayNotify
 {
     public  $paymentRequestId;
     public  $disputeId;

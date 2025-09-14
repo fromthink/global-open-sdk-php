@@ -3,7 +3,7 @@
 namespace Fromthink\Antom\Request\notify;
 
 
-class AlipayVaultingNotify extends \Request\notify\AlipayNotify
+class AlipayVaultingNotify extends Fromthink\Antom\Request\notify\AlipayNotify
 {
     /**
      * The unique ID that is assigned by a merchant to identify a card vaulting request.

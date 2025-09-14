@@ -2,7 +2,7 @@
 
 namespace Fromthink\Antom\Client;
 
-class DefaultAlipayClient extends \Client\BaseAlipayClient
+class DefaultAlipayClient extends Fromthink\Antom\Client\BaseAlipayClient
 {
 
     function __construct()
