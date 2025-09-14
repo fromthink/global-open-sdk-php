@@ -43,7 +43,7 @@ function authConsult()
     $request->setScopes([\Model\ScopeType::AGREEMENT_PAY]);
     $request->setTerminalType(\Model\TerminalType::APP);
 
-    $alipayClient = new \Client\DefaultAlipayClient(gatewayUrl, merchantPrivateKey, alipayPublicKey, clientId);
+    $alipayClient = new Fromthink\Antom\Client\DefaultAlipayClient(gatewayUrl, merchantPrivateKey, alipayPublicKey, clientId);
     $alipayResponse = $alipayClient->execute($request);
 
     print(json_encode($alipayResponse));
@@ -51,7 +51,7 @@ function authConsult()
 
 function queryToken($accessToken)
 {
-    $request = new \Request\auth\AlipayAuthQueryTokenRequest();
+    $request = new Fromthink\Antom\Request\auth\AlipayAuthQueryTokenRequest();
     $request->setAccessToken($accessToken);
 
     $alipayClient = new DefaultAlipayClient(gatewayUrl, merchantPrivateKey, alipayPublicKey, clientId);

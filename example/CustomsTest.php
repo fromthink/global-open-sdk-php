@@ -57,7 +57,7 @@ function declares($paymentId)
 function inquiryDeclaration($declareRequestId)
 {
 
-    $request = new \Request\customs\AlipayCustomsQueryRequest();
+    $request = new Fromthink\Antom\Request\customs\AlipayCustomsQueryRequest();
     $request->setDeclarationRequestIds([$declareRequestId]);
 
     $alipayClient = new DefaultAlipayClient(gatewayUrl, merchantPrivateKey, alipayPublicKey, clientId);
